@@ -1,0 +1,101 @@
+Patient ID,Symptoms,Chance of Symptom Occurrence,Earliest Occurrence,Linkage with Heart Issue,Measurement Mode,Variance,Measurement Frequency,Communication Mode,Severity Level,Duration,Recommended Action
+P001,Swelling Around Eyes,Moderate,4-6 weeks,None,Eye Scan (Mobile App),Low,Annually,Mobile App Notification,Severe,<1 day,Consult Doctor
+P002,Severe Headache,High,3-5 weeks,None,ECG via Apple Watch,High,Weekly,Mobile App Notification,Mild,2+ weeks,Emergency Visit
+P003,Severe Headache,Moderate,1-2 weeks,Fluid Retention,Smartwatch O2 Monitoring,Low,Monthly,In-person Visit,Critical,1 week,Monitor
+P004,Chest Heaviness,High,6-8 weeks,Poor Oxygen Circulation,ECG via Apple Watch,Medium,Bi-weekly,Mobile App Notification,Moderate,1 week,Lifestyle Change
+P005,Eye Pain,High,4-6 weeks,Insufficient blood flow,Face Scan (App),Low,Bi-weekly,In-person Visit,Critical,<1 day,Monitor
+P006,Extreme Fatigue,Very High,2-3 weeks,None,Eye Scan (Mobile App),Medium,Weekly,Phone Call,Critical,1 week,Consult Doctor
+P007,Heart Palpitations,Low,3-5 weeks,None,Nail Imaging (Phone),Medium,Bi-weekly,In-person Visit,Moderate,1 week,Emergency Visit
+P008,Swelling Around Eyes,Very High,6-8 weeks,Fluid Retention,Digestive Scan (App),High,Annually,Email,Moderate,2+ weeks,Emergency Visit
+P009,Chest Heaviness,High,4-6 weeks,Bad Cholesterol,Activity Tracker (Watch),High,Bi-weekly,Email,Severe,2+ weeks,Emergency Visit
+P010,Eye Pain,Moderate,3-5 weeks,Fluid Retention,Activity Tracker (Watch),Medium,Daily,Phone Call,Moderate,<1 day,Emergency Visit
+P011,Heart Burning Sensation,High,3-5 weeks,None,Neuro Scan via App,Medium,Bi-weekly,In-person Visit,Moderate,2+ weeks,Consult Doctor
+P012,Difficulty Breathing,Very High,1-2 weeks,Bad Cholesterol,Eye Scan (Mobile App),High,Annually,In-person Visit,Mild,2+ weeks,Lifestyle Change
+P013,Chest Heaviness,Low,3-5 weeks,Fluid Retention,ECG via Apple Watch,High,Bi-weekly,In-person Visit,Critical,1 week,Emergency Visit
+P014,Chest Heaviness,High,1-2 weeks,Vision Problem,ECG via Apple Watch,Low,Bi-weekly,In-person Visit,Severe,1-3 days,Monitor
+P015,Chest Heaviness,Moderate,6-8 weeks,Insufficient blood flow,ECG via Apple Watch,Low,Annually,In-person Visit,Severe,<1 day,Lifestyle Change
+P016,Splinter Hemorrhage,Very High,1-2 weeks,None,Neuro Scan via App,Low,Monthly,Mobile App Notification,Mild,1-3 days,Monitor
+P017,Heart Burning Sensation,Very High,6-8 weeks,None,Neuro Scan via App,High,Bi-weekly,Mobile App Notification,Severe,1 week,Lifestyle Change
+P018,Heart Palpitations,Moderate,1-2 weeks,Vision Problem,Breath Tracker (Watch),Medium,Daily,Email,Critical,2+ weeks,Monitor
+P019,Blue Nails,Low,3-5 weeks,Insufficient blood flow,Breath Tracker (Watch),Medium,Bi-weekly,Phone Call,Moderate,1-3 days,Lifestyle Change
+P020,Heart Palpitations,Moderate,6-8 weeks,None,Nail Imaging (Phone),Low,Bi-weekly,Mobile App Notification,Mild,1-3 days,Monitor
+P021,Swelling Around Eyes,Moderate,3-5 weeks,None,Face Scan (App),High,Weekly,Email,Moderate,1-3 days,Consult Doctor
+P022,Eye Pain,High,6-8 weeks,Poor Oxygen Circulation,Smartwatch O2 Monitoring,High,Monthly,Email,Critical,2+ weeks,Emergency Visit
+P023,Heart Palpitations,High,3-5 weeks,Insufficient blood flow,Breath Tracker (Watch),High,Weekly,In-person Visit,Severe,2+ weeks,Monitor
+P024,Heart Palpitations,Low,3-5 weeks,None,Activity Tracker (Watch),High,Weekly,Mobile App Notification,Moderate,<1 day,Lifestyle Change
+P025,Heart Palpitations,Moderate,1-2 weeks,Vision Problem,Activity Tracker (Watch),Low,Monthly,Email,Severe,1 week,Emergency Visit
+P026,Severe Headache,Very High,1-2 weeks,None,Breath Tracker (Watch),High,Weekly,Email,Moderate,<1 day,Emergency Visit
+P027,Extreme Fatigue,Low,2-3 weeks,None,Neuro Scan via App,High,Monthly,Email,Critical,1-3 days,Emergency Visit
+P028,Extreme Fatigue,Moderate,2-3 weeks,Vision Problem,Neuro Scan via App,Low,Bi-weekly,Phone Call,Mild,1-3 days,Monitor
+P029,Eye Pain,High,3-5 weeks,Bad Cholesterol,ECG via Apple Watch,Medium,Monthly,Mobile App Notification,Critical,<1 day,Emergency Visit
+P030,Heart Palpitations,Very High,2-3 weeks,None,Face Scan (App),Medium,Weekly,Phone Call,Moderate,2+ weeks,Consult Doctor
+P031,Eye Pain,Very High,2-3 weeks,Vision Problem,Nail Imaging (Phone),Medium,Daily,Mobile App Notification,Critical,2+ weeks,Consult Doctor
+P032,Heart Burning Sensation,Very High,3-5 weeks,Vision Problem,Eye Scan (Mobile App),Medium,Daily,Mobile App Notification,Moderate,<1 day,Lifestyle Change
+P033,Heart Palpitations,Moderate,6-8 weeks,Poor Oxygen Circulation,Nail Imaging (Phone),Low,Weekly,Mobile App Notification,Moderate,<1 day,Emergency Visit
+P034,Heart Burning Sensation,Very High,3-5 weeks,Fluid Retention,Breath Tracker (Watch),High,Monthly,Mobile App Notification,Mild,1 week,Emergency Visit
+P035,Chest Heaviness,High,1-2 weeks,Fluid Retention,Digestive Scan (App),High,Weekly,Email,Critical,1 week,Consult Doctor
+P036,Chest Heaviness,Very High,4-6 weeks,Fluid Retention,Smartwatch O2 Monitoring,Medium,Annually,Email,Critical,1 week,Consult Doctor
+P037,Difficulty Breathing,Very High,4-6 weeks,Fluid Retention,Breath Tracker (Watch),Low,Weekly,Email,Severe,1 week,Lifestyle Change
+P038,Heart Burning Sensation,High,1-2 weeks,None,Eye Scan (Mobile App),Medium,Weekly,Phone Call,Mild,2+ weeks,Consult Doctor
+P039,Splinter Hemorrhage,Low,2-3 weeks,None,Breath Tracker (Watch),High,Annually,Email,Critical,2+ weeks,Monitor
+P040,Difficulty Breathing,High,1-2 weeks,None,Digestive Scan (App),Medium,Annually,In-person Visit,Mild,<1 day,Emergency Visit
+P041,Difficulty Breathing,Low,3-5 weeks,Fluid Retention,Smartwatch O2 Monitoring,Low,Daily,Email,Critical,<1 day,Monitor
+P042,Heart Palpitations,Very High,2-3 weeks,Insufficient blood flow,Nail Imaging (Phone),Medium,Weekly,In-person Visit,Critical,1 week,Consult Doctor
+P043,Severe Headache,Moderate,1-2 weeks,Fluid Retention,Activity Tracker (Watch),Medium,Bi-weekly,Mobile App Notification,Severe,1-3 days,Lifestyle Change
+P044,Splinter Hemorrhage,Low,3-5 weeks,Insufficient blood flow,Smartwatch O2 Monitoring,Medium,Weekly,In-person Visit,Mild,1 week,Consult Doctor
+P045,Extreme Fatigue,High,3-5 weeks,Insufficient blood flow,Face Scan (App),Low,Weekly,Email,Critical,1 week,Consult Doctor
+P046,Heart Palpitations,Very High,3-5 weeks,Insufficient blood flow,Nail Imaging (Phone),High,Daily,In-person Visit,Mild,1 week,Lifestyle Change
+P047,Severe Headache,High,2-3 weeks,Bad Cholesterol,Activity Tracker (Watch),Low,Monthly,Phone Call,Moderate,1-3 days,Monitor
+P048,Heart Palpitations,Moderate,6-8 weeks,Vision Problem,Chest Scan (App),Low,Weekly,Email,Moderate,2+ weeks,Monitor
+P049,Heart Burning Sensation,Moderate,6-8 weeks,Vision Problem,ECG via Apple Watch,High,Daily,Email,Critical,1-3 days,Emergency Visit
+P050,Chest Heaviness,Very High,3-5 weeks,Fluid Retention,Chest Scan (App),High,Weekly,Mobile App Notification,Severe,1-3 days,Lifestyle Change
+P051,Blue Nails,Very High,4-6 weeks,Vision Problem,Smartwatch O2 Monitoring,Low,Bi-weekly,Mobile App Notification,Mild,2+ weeks,Lifestyle Change
+P052,Heart Palpitations,Moderate,4-6 weeks,Fluid Retention,Nail Imaging (Phone),Medium,Weekly,Email,Mild,1-3 days,Consult Doctor
+P053,Heart Palpitations,Moderate,6-8 weeks,Poor Oxygen Circulation,Smartwatch O2 Monitoring,High,Bi-weekly,Email,Severe,<1 day,Monitor
+P054,Heart Burning Sensation,Very High,3-5 weeks,None,Neuro Scan via App,Low,Weekly,In-person Visit,Mild,1-3 days,Emergency Visit
+P055,Difficulty Breathing,Moderate,6-8 weeks,None,ECG via Apple Watch,High,Bi-weekly,Phone Call,Moderate,1 week,Consult Doctor
+P056,Blue Nails,High,1-2 weeks,Bad Cholesterol,ECG via Apple Watch,Medium,Bi-weekly,Phone Call,Severe,1-3 days,Monitor
+P057,Extreme Fatigue,Moderate,1-2 weeks,Vision Problem,Nail Imaging (Phone),Medium,Bi-weekly,In-person Visit,Moderate,1 week,Consult Doctor
+P058,Heart Burning Sensation,Moderate,4-6 weeks,Insufficient blood flow,Eye Scan (Mobile App),Low,Daily,Email,Mild,<1 day,Emergency Visit
+P059,Heart Palpitations,Low,6-8 weeks,Fluid Retention,Smartwatch O2 Monitoring,High,Weekly,Email,Mild,<1 day,Consult Doctor
+P060,Eye Pain,Low,2-3 weeks,Insufficient blood flow,Chest Scan (App),High,Annually,Email,Mild,1-3 days,Consult Doctor
+P061,Heart Palpitations,Moderate,6-8 weeks,Vision Problem,Smartwatch O2 Monitoring,High,Daily,Phone Call,Severe,1-3 days,Monitor
+P062,Swelling Around Eyes,Moderate,3-5 weeks,Bad Cholesterol,Activity Tracker (Watch),Low,Bi-weekly,Phone Call,Moderate,<1 day,Consult Doctor
+P063,Difficulty Breathing,Low,4-6 weeks,Fluid Retention,Smartwatch O2 Monitoring,Medium,Annually,Phone Call,Severe,2+ weeks,Lifestyle Change
+P064,Difficulty Breathing,Moderate,6-8 weeks,Fluid Retention,Activity Tracker (Watch),High,Daily,Email,Critical,<1 day,Monitor
+P065,Difficulty Breathing,Very High,6-8 weeks,Bad Cholesterol,Eye Scan (Mobile App),High,Daily,Phone Call,Severe,<1 day,Monitor
+P066,Difficulty Breathing,Very High,3-5 weeks,Bad Cholesterol,Breath Tracker (Watch),Medium,Bi-weekly,Mobile App Notification,Severe,1-3 days,Consult Doctor
+P067,Extreme Fatigue,High,4-6 weeks,Poor Oxygen Circulation,Smartwatch O2 Monitoring,Low,Daily,Email,Severe,<1 day,Emergency Visit
+P068,Swelling Around Eyes,Low,1-2 weeks,Vision Problem,ECG via Apple Watch,Medium,Daily,Email,Moderate,1 week,Emergency Visit
+P069,Heart Palpitations,Low,1-2 weeks,Bad Cholesterol,Nail Imaging (Phone),High,Daily,Mobile App Notification,Critical,2+ weeks,Consult Doctor
+P070,Difficulty Breathing,Low,1-2 weeks,Vision Problem,Face Scan (App),High,Bi-weekly,Phone Call,Mild,1 week,Monitor
+P071,Swelling Around Eyes,Moderate,3-5 weeks,Insufficient blood flow,ECG via Apple Watch,Medium,Bi-weekly,Phone Call,Mild,<1 day,Emergency Visit
+P072,Difficulty Breathing,Moderate,1-2 weeks,Insufficient blood flow,Eye Scan (Mobile App),Low,Bi-weekly,In-person Visit,Moderate,1 week,Emergency Visit
+P073,Difficulty Breathing,Very High,1-2 weeks,Vision Problem,Chest Scan (App),Low,Bi-weekly,In-person Visit,Mild,1-3 days,Monitor
+P074,Severe Headache,Moderate,2-3 weeks,Fluid Retention,Eye Scan (Mobile App),Low,Monthly,Phone Call,Moderate,<1 day,Monitor
+P075,Blue Nails,High,3-5 weeks,Fluid Retention,Nail Imaging (Phone),Medium,Weekly,In-person Visit,Critical,1 week,Emergency Visit
+P076,Heart Palpitations,Low,1-2 weeks,Poor Oxygen Circulation,Neuro Scan via App,High,Daily,Mobile App Notification,Critical,<1 day,Monitor
+P077,Heart Burning Sensation,Moderate,1-2 weeks,Insufficient blood flow,Digestive Scan (App),High,Weekly,Email,Moderate,1 week,Consult Doctor
+P078,Difficulty Breathing,Low,3-5 weeks,Bad Cholesterol,Smartwatch O2 Monitoring,High,Daily,Phone Call,Critical,<1 day,Monitor
+P079,Difficulty Breathing,Low,1-2 weeks,None,Breath Tracker (Watch),Medium,Monthly,In-person Visit,Mild,1 week,Consult Doctor
+P080,Chest Heaviness,Low,4-6 weeks,Insufficient blood flow,Smartwatch O2 Monitoring,Medium,Monthly,In-person Visit,Critical,2+ weeks,Lifestyle Change
+P081,Splinter Hemorrhage,Moderate,4-6 weeks,Vision Problem,Eye Scan (Mobile App),Medium,Annually,In-person Visit,Mild,<1 day,Lifestyle Change
+P082,Chest Heaviness,Low,6-8 weeks,Bad Cholesterol,Neuro Scan via App,Low,Annually,In-person Visit,Moderate,2+ weeks,Lifestyle Change
+P083,Heart Burning Sensation,Moderate,2-3 weeks,Fluid Retention,Activity Tracker (Watch),Medium,Weekly,Email,Moderate,2+ weeks,Consult Doctor
+P084,Severe Headache,High,1-2 weeks,Poor Oxygen Circulation,Face Scan (App),High,Weekly,Phone Call,Severe,1 week,Monitor
+P085,Extreme Fatigue,Moderate,2-3 weeks,Poor Oxygen Circulation,Digestive Scan (App),High,Annually,Phone Call,Critical,2+ weeks,Emergency Visit
+P086,Swelling Around Eyes,Low,2-3 weeks,Fluid Retention,ECG via Apple Watch,High,Monthly,In-person Visit,Mild,<1 day,Emergency Visit
+P087,Swelling Around Eyes,Low,1-2 weeks,Poor Oxygen Circulation,Face Scan (App),Low,Daily,Email,Mild,2+ weeks,Consult Doctor
+P088,Difficulty Breathing,Very High,6-8 weeks,None,ECG via Apple Watch,Medium,Bi-weekly,In-person Visit,Moderate,<1 day,Monitor
+P089,Eye Pain,High,1-2 weeks,Bad Cholesterol,Breath Tracker (Watch),Medium,Daily,Mobile App Notification,Moderate,2+ weeks,Consult Doctor
+P090,Swelling Around Eyes,Moderate,6-8 weeks,Bad Cholesterol,ECG via Apple Watch,High,Bi-weekly,Phone Call,Moderate,<1 day,Consult Doctor
+P091,Extreme Fatigue,Low,2-3 weeks,Bad Cholesterol,Activity Tracker (Watch),High,Weekly,Mobile App Notification,Critical,<1 day,Monitor
+P092,Heart Burning Sensation,High,2-3 weeks,Insufficient blood flow,Breath Tracker (Watch),Low,Daily,Phone Call,Moderate,1 week,Lifestyle Change
+P093,Severe Headache,Very High,3-5 weeks,None,Neuro Scan via App,Low,Monthly,Phone Call,Mild,<1 day,Emergency Visit
+P094,Heart Burning Sensation,High,3-5 weeks,Insufficient blood flow,Smartwatch O2 Monitoring,High,Annually,In-person Visit,Severe,2+ weeks,Emergency Visit
+P095,Blue Nails,Very High,4-6 weeks,None,Smartwatch O2 Monitoring,Medium,Daily,Email,Moderate,2+ weeks,Consult Doctor
+P096,Severe Headache,High,6-8 weeks,None,Nail Imaging (Phone),High,Monthly,Phone Call,Mild,1 week,Emergency Visit
+P097,Extreme Fatigue,Moderate,4-6 weeks,Bad Cholesterol,Eye Scan (Mobile App),Medium,Daily,In-person Visit,Mild,1 week,Emergency Visit
+P098,Severe Headache,Moderate,6-8 weeks,Fluid Retention,Smartwatch O2 Monitoring,Low,Annually,Phone Call,Moderate,<1 day,Consult Doctor
+P099,Eye Pain,Moderate,1-2 weeks,Vision Problem,Face Scan (App),Low,Daily,In-person Visit,Moderate,1 week,Consult Doctor
+P100,Chest Heaviness,High,6-8 weeks,Bad Cholesterol,Nail Imaging (Phone),Low,Bi-weekly,Phone Call,Mild,2+ weeks,Consult Doctor
