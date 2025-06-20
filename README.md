@@ -12,11 +12,34 @@ Intellicare/
 │   └── ...
 ├── stroke-prediction-mlops/
 │   ├── deployment/
+│   │   ├── lambda_handler.py
+│   │   ├── lambda_metadata_chunk.py
+│   │   ├── lambda_vectorize_store.py
+│   │   ├── lambda_decision_triggers.py
+│   │   └── lambda_patient_data.py
 │   ├── model/
+│   │   ├── stroke-model.joblib
+│   │   └── label_encoders.joblib
 │   ├── src/
+│   │   ├── train.py
+│   │   ├── ingest_kinesis.py
+│   │   ├── process_glue.py
+│   │   ├── health_omnis.py
+│   │   ├── health_imaging.py
+│   │   ├── comprehend_medical.py
+│   │   ├── healthscribe.py
+│   │   └── rules_engine.py
 │   └── requirements.txt
 └── README.md
 ```
+
+## Data
+
+The main dataset used for model training is:
+- `stroke-prediction-mlops/src/data/healthcare-dataset-stroke-data.csv`
+
+This dataset contains anonymized patient health records, including demographics, medical history, vital signs, and stroke-related features.  
+**Note:** Ensure this file exists before running the training script.
 
 ## Getting Started
 
@@ -52,14 +75,25 @@ This will generate the trained model and encoders in the `model/` directory.
   3. Set the handler to `lambda_handler.lambda_handler`.
   4. (Optional) Use API Gateway to expose as an HTTP endpoint.
 
-#### b. Patient Data Lambda
+#### b. Metadata & Chunk Lambda
 
-- **File:** `src/patient.py` or `deployment/patient_data_lambda.py`
+- **File:** `deployment/lambda_metadata_chunk.py`
+- **Purpose:** Processes incoming data, extracts metadata, and chunks as needed.
+
+#### c. Vectorize & Store Lambda
+
+- **File:** `deployment/lambda_vectorize_store.py`
+- **Purpose:** Calls embedding models and stores vectors in OpenSearch.
+
+#### d. Decision Triggers Lambda
+
+- **File:** `deployment/lambda_decision_triggers.py`
+- **Purpose:** Uses generative models to trigger alerts/notifications.
+
+#### e. Patient Data Lambda
+
+- **File:** `deployment/lambda_patient_data.py`
 - **Purpose:** Returns mock or real patient data.
-- **Deployment Steps:**
-  1. Deploy the file as a Lambda function.
-  2. Set the handler to `patient.lambda_handler` or `patient_data_lambda.lambda_handler`.
-  3. (Optional) Connect to a real database for live data.
 
 ### 4. Test Lambda Functions Locally
 
@@ -98,4 +132,4 @@ npm start
 
 ## Notes
 
--
+- Update data paths in scripts if your structure changes.
