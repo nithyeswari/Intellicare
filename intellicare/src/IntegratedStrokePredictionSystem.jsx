@@ -1,10 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import { Heart, Footprints, Moon, Target, ChevronRight, Play, MapPin, Upload, Database, Brain, AlertTriangle, TrendingUp, FileText, Activity, User, Phone, Mail } from 'lucide-react';
+import axios from 'axios';
+// Fetch patient data from API if available, else use default
 
 const IntegratedStrokePredictionSystem = () => {
   const [activeView, setActiveView] = useState('prediction');
   const [currentTime, setCurrentTime] = useState(new Date());
-  
+  useEffect(() => {
+  const fetchPatientData = async () => {
+    try {
+      const response = await axios.get('/api/patient/latest');
+      if (response.data && Object.keys(response.data).length > 0) {
+        setPatientData(prev => ({
+          ...prev,
+          ...response.data,
+          healthTracking: {
+            ...prev.healthTracking,
+            ...response.data.healthTracking
+          }
+        }));
+      }
+    } catch (error) {
+      // Use default if API fails or no data
+    }
+  };
+  fetchPatientData();
+}, []);
   // Enhanced patient data with health tracking integration
   const [patientData, setPatientData] = useState({
     id: '',
