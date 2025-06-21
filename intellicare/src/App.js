@@ -9,6 +9,7 @@ function App() {
 
 <ModernProductPlatform></ModernProductPlatform>
 <CrowSenseApp></CrowSenseApp>
+<FlowFocusApp></FlowFocusApp>
     </div>
   );
 }
