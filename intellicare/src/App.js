@@ -6,6 +6,8 @@ function App() {
   return (
     <div className="App">
       <IntegratedStrokePredictionSystem></IntegratedStrokePredictionSystem>
+
+<ModernProductPlatform></ModernProductPlatform>
     </div>
   );
 }
