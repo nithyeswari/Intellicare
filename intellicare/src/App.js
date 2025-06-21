@@ -8,6 +8,7 @@ function App() {
       <IntegratedStrokePredictionSystem></IntegratedStrokePredictionSystem>
 
 <ModernProductPlatform></ModernProductPlatform>
+<CrowSenseApp></CrowSenseApp>
     </div>
   );
 }
